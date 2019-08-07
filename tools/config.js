@@ -45,6 +45,11 @@ module.exports = {
         use: [
           'babel-loader',
           'eslint-loader',
+        ],
+        exclude: '/node_modules/'
+      }, {
+        test: /\.ts$/i,
+        use: [
           'ts-loader',
         ],
         exclude: '/node_modules/'
