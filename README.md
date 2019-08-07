@@ -27,7 +27,7 @@ yarn install
 yarn run dev
 ```
 
-默认会在包根目录下生成 miniprogram\_dev 目录，src 中的源代码会被构建并生成到 miniprogram\_dev/components 目录下。如果需要监听文件变化动态构建，则可以执行命令：
+默认会在包根目录下生成 dev 目录，src 中的源代码会被构建并生成到 dev/components 目录下。如果需要监听文件变化动态构建，则可以执行命令：
 
 ```
 yarn run watch
